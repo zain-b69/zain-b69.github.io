@@ -2,143 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <meta name="keyword" content="portfolio,developper,dev online">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="icon/_3d81cfae-0341-4b87-9cd2-b568a925faf8.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zainab Belkhou | Portfolio</title>
+    <meta name="description" content="Computer engineering student focused on Java and Spring Boot backend development.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Home -->
-    <section class="home" id="home">
-        <nav> 
-            <h2> Zainab <span>BELKHOU</span></h2>
-            <ul id="action">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#aboutme">About me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contactme">Contact me</a></li>
-            </ul>
-            <button id="menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-        <!-- Content -->
-        <div class="content">
-            <div class="container-text">
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="#" class="logo">&lt;Z.Belkhou/&gt;</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-                <h3>Hello,  </h3>
-                <h3>I'm <span> a </span> Front-end <i>BACK END</i> <span> Developper </span></h3>
-                <a href="#" class="btn"> Download CV </a>
-                <div class="social">
-                <a href="" target="_blank"><img src="icon/facebook.png" alt="facebook"></a>
-                <a href="" target="_blank"><img src="icon/instagram.png" alt="instagram"></a>
-                <a href="" target="_blank"><img src="icon/twitter.png" alt="twitter"></a>
-                <a href="" target="_blank"><img src="icon/linkedin.png" alt="linkedin"></a>
-                </div>
+    <header class="container hero">
+        <div class="hero-text">
+            <p class="eyebrow">Hi, my name is</p>
+            <h1>Zainab Belkhou.</h1>
+            <h2>I build secure backends and software that solves real problems.</h2>
+            <p class="lead">Computer engineering student at EMSI (Rabat), focused on Java and Spring Boot. I design document platforms, management systems and machine learning tools, from the database to the interface.</p>
+            <div class="btns">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="cv.pdf" download class="btn btn-outline">Download CV</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+        <div class="avatar">
+            <img src="image/avatar.jpg" alt="Zainab Belkhou" onerror="this.src='https://api.dicebear.com/7.x/bottts/svg?seed=Zainab'">
+        </div>
+    </header>
 
-            
-            </div> 
-            <div class="container-images">
-                <img src="image/download-triangular-shape-background-shading-4b261db155c72f6d5333b709bf98897b.png" alt="geometric-abstract" class="shape">
-                <img src="image/abstract-art-painting-drawing-creative-color-ink-splash-tiger-avatar.png" alt="geometric-abstract" class="pic">
+    <section id="about" class="band">
+        <div class="container">
+            <div class="title"><h3>01. About Me</h3><span></span></div>
+            <div class="about">
+                <p>I am a computer engineering student at the École Marocaine des Sciences de l'Ingénieur (EMSI) in Rabat, after a bachelor's degree in Mathematics and Computer Science at the Faculty of Sciences of Rabat.</p>
+                <p>My main stack is Java and Spring Boot, with Spring Security and JWT for authentication. I also build React front ends, work with PostgreSQL, and have experience in PHP, .NET and Python machine learning. I am preparing the Oracle Java SE 17 certification and looking for an internship where I can keep building real backend systems.</p>
             </div>
         </div>
     </section>
 
-    <!-- About -->
-    <section class="about">
-        <div class="container-images">
-            <img src="image/computer-icons-encapsulated-postscript-clip-art-about-us-2a00d4942e91f5384cc35271f5b1f3ee.png" alt="" srcset="">
+    <section id="skills" class="container section">
+        <div class="title"><h3>02. Core Capabilities</h3><span></span></div>
+        <div class="grid-3">
+            <div class="card skill">
+                <div class="icon"><i class="fa-solid fa-code"></i></div>
+                <h4>Languages & Frameworks</h4>
+                <ul>
+                    <li>Java, Spring Boot, Spring Security</li>
+                    <li>React, TypeScript, React Native</li>
+                    <li>Python, FastAPI, scikit-learn</li>
+                    <li>C/C++, PHP, .NET, SQL</li>
+                </ul>
+            </div>
+            <div class="card skill">
+                <div class="icon"><i class="fa-solid fa-server"></i></div>
+                <h4>Tools & Systems</h4>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Linux</li>
+                    <li>Docker</li>
+                    <li>n8n automation</li>
+                </ul>
+            </div>
+            <div class="card skill">
+                <div class="icon"><i class="fa-solid fa-database"></i></div>
+                <h4>Data & Storage</h4>
+                <ul>
+                    <li>PostgreSQL, MySQL</li>
+                    <li>MinIO (object storage)</li>
+                    <li>InfluxDB, MQTT</li>
+                    <li>Pandas, NumPy</li>
+                </ul>
+            </div>
         </div>
-        <div class="container-texts">
-            <h1> About <span> ME</span></h1>
-            <h5><span> Web  </span> Developper</h5>
-            <p>
-                Perpetual sincerity out suspected necessary one but provision satisfied. 
-                Respect nothing use set waiting pursuit nay you looking. 
-                If on prevailed concluded ye abilities.Address say you new but minuter greater. Do denied agreed in innate. Can and middletons thoroughly themselves him. Tolerably sportsmen belonging in september no am immediate newspaper. 
-                Theirs expect dinner it pretty indeed having no of. Principle september she conveying did eat may extensive.
-            </p>
+        <p class="certs"><span>Certificates:</span> Oracle Cloud Infrastructure Foundations Associate (Sep 2026) · React Native and React Basics (Meta, Coursera, Dec 2025) · Oracle Java SE 17 Developer (in progress)</p>
+    </section>
+
+    <section id="projects" class="band">
+        <div class="container">
+            <div class="title"><h3>03. Engineering Projects</h3><span></span></div>
+            <div id="project-list" class="projects"></div>
         </div>
     </section>
 
-   <!-- Services -->
-    <section class="services">
-        <h1 class="text-center"> Our <span> Services </span></h1>
-        <div class="box">
-            <div class="card">
-                <i class="fas fa-mobile-alt"></i>
-                <h5> Mobile Dev</h5>
-                <div class="par">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores temporibus commodi, laborum
-                </div>
-            </div>
-            <div class="card">
-                <i class="far fa-file-code"></i>
-                <h5> Dev Web</h5>
-                <div class="par">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores temporibus commodi, laborum
-                </div>
-            </div>
-            <div class="card">
-                <i class="fas fa-desktop-alt"></i>
-                <h5> Desktop Dev</h5>
-                <div class="par">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores temporibus commodi, laborum
-                </div>
-            </div>
-            <div class="card">
-                <i class="fas fa-commenting"></i>
-                <h5> Dev Consulting</h5>
-                <div class="par">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores temporibus commodi, laborum
-                </div>
-            </div>
+    <section id="contact" class="container contact">
+        <p class="eyebrow">04. What's Next?</p>
+        <h3>Get In Touch</h3>
+        <p>I am looking for an internship in Java / Spring Boot backend development. Feel free to email me or find me on LinkedIn and GitHub.</p>
+        <div class="socials">
+            <a href="mailto:zainabbelkhou@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/zainab-belkhou" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/zain-b69" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
         </div>
     </section>
 
-     <!-- Skills -->
-    <section class="skills">
-        <div class="container-skills">
-            <h1> My <span> Skills</span></h1>
-            <div class="content-skills">
-                <div class="skill">
-                    <img src="icon/file_type_html_icon_130541.png" alt="">
-                    <img src="icon/file_type_css_icon_130661.png" alt="">
-                    <img src="icon/file_type_git_icon_130581.png" alt="">
-                    <img src="icon/react_original_wordmark_logo_icon_146375.png" alt="">
-                    <img src="icon/file_type_python_icon_130221.png" alt="">
-                    <img class="js" src="icon/javascript_logo_icon_181330.png" alt="">
-                    <img src="icon/php_icon_130857.png" alt="skill">
-                    <img src="icon/file_type_angular_icon_130754.png" alt="">
-                    <img src="icon/file_type_vue_icon_130078.png" alt="">
-                    
-                </div>
-            </div>
-        </div>
-        <div class="container-images">
-            <img src="image/case-study-student-research-learning-study-skills-student-48300f35328582b67273ab1eabc4cf4b.png" alt="">
-        </div>
-    </section>
+    <footer>© 2026 Zainab Belkhou</footer>
 
-  <!-- Footer -->
-    <footer>
-        <div class="content-footer">
-            <p>
-                
-            </p>
-            <p class="end">
-                Copyright by Analyst Online ©2022-2023
-            </p>
-        </div>
-    </footer> 
-
-<script src="js/script.js">
-
-</script>
+    <script src="script.js"></script>
 </body>
 </html>
