@@ -4,14 +4,14 @@ const projects = [
     kind: "Enterprise Application",
     title: "Project Portfolio Management",
     desc: "Spring Boot application to manage and follow IT projects for the IT department (DSI) of ONEE. Secured with Spring Security and JWT authentication. Includes the full project documentation: requirements, use case diagrams and the Merise conceptual data model.",
-    tags: ["Java", "Spring Boot", "Spring Security", "JWT"],
+    tags: ["Java", "Spring Boot", "Spring Security", "JWT", "React", "PostgreSQL", "Docker"],
     repo: "https://github.com/zain-b69/projectportfolio-back"
   },
   {
     kind: "Full-Stack Platform",
     title: "MDoc: Document Management",
     desc: "Document platform with multi-step validation workflows, electronic signatures and version history. Files are stored on MinIO, and a rule-based chatbot helps users find information on the platform. Presented and defended before a jury.",
-    tags: ["React", "TypeScript", "Spring Boot", "PostgreSQL", "MinIO"],
+    tags: ["React", "TypeScript", "Spring Boot", "PostgreSQL", "MinIO", "Docker"],
     repo: "https://github.com/zain-b69/MDoc"
   },
   {
